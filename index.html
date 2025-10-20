@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Дмитрий Турунтаев — Системный администратор</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <canvas id="bgCanvas"></canvas>
+  
+  <header>
+    <h1>Дмитрий Турунтаев</h1>
+    <h2>Системный администратор</h2>
+    <p>Развиваюсь в направлении DevOps и автоматизации инфраструктуры</p>
+    <div class="buttons">
+      <a href="#about" class="btn">Обо мне</a>
+      <a href="#contacts" class="btn">Связаться</a>
+    </div>
+  </header>
+
+  <section id="about" class="about">
+    <div class="photo-placeholder">
+      <img src="images/photo.jpg" alt="Дмитрий Турунтаев" onerror="this.style.display='none'">
+    </div>
+    <h3>Обо мне</h3>
+    <p>Я системный администратор с более чем 7 годами опыта поддержки и автоматизации корпоративных ИТ-систем.
+    Развиваюсь в направлении DevOps — изучаю CI/CD, контейнеризацию (Docker) и инфраструктуру как код.
+    Работаю с Windows Server, VMware, Zabbix, Ansible, Docker, PowerShell и Python.</p>
+  </section>
+
+  <section id="experience">
+    <h3>Опыт работы</h3>
+    <div class="experience">
+      <div class="job">
+        <h4>Лоция — Старший эксперт</h4>
+        <span>2024 — н.в.</span>
+        <p>Windows Server 2019, Exchange 2019, VMware ESXi, Zabbix, Ansible, Veeam, Python, PowerShell.
+        Внедрил систему мониторинга и резервного копирования, автоматизировал задачи администрирования.</p>
+      </div>
+      <div class="job">
+        <h4>ГБПОУ МКАГ — Системный администратор</h4>
+        <span>2024</span>
+        <p>Proxmox, Debian 11/12, AD, криптография VipNet, управление техподдержкой.</p>
+      </div>
+      <div class="job">
+        <h4>AUVIX — Системный администратор</h4>
+        <span>2021 — 2024</span>
+        <p>Helpdesk, Bitrix24, Exchange, VMware, Zabbix, тестовые стенды Linux.</p>
+      </div>
+      <div class="job">
+        <h4>РГСУ — Инженер / Системный администратор</h4>
+        <span>2018 — 2021</span>
+        <p>Active Directory, DHCP, DNS, VMware, тонкие клиенты Huawei, FusionCompute, TrueConf.</p>
+      </div>
+      <div class="job">
+        <h4>Прочие проекты</h4>
+        <span>2016 — 2025</span>
+        <p>Разработка и сопровождение веб-проектов от идеи до хостинга.<br>
+          Участие в создании программного обеспечения различного назначения.<br>
+          Проведение аудита и проектирование архитектуры IT-инфраструктуры.</p>
+      </div>
+      
+    </div>
+  </section>
+
+  <section id="skills">
+    <h3>Навыки и технологии</h3>
+    <div class="skills-grid">
+      <div class="skill">VMware</div>
+      <div class="skill">Proxmox</div>
+      <div class="skill">Windows Server</div>
+      <div class="skill">Linux (Debian)</div>
+      <div class="skill">Zabbix</div>
+      <div class="skill">ELK</div>
+      <div class="skill">PowerShell</div>
+      <div class="skill">Python</div>
+      <div class="skill">Ansible</div>
+      <div class="skill">Docker</div>
+      <div class="skill">Exchange</div>
+      <div class="skill">Veeam</div>
+    </div>
+  </section>
+
+  <section id="certificates">
+    <h3>Мои сертификаты</h3>
+    <div class="certificates-grid">
+      <div class="certificate" onclick="openPdf('images/pdf/huawei.pdf')">
+        <p>HCIP-Storage</p>
+        <span>Huawei • 2021</span>
+      </div>
+      <div class="certificate" onclick="openPdf('images/pdf/ansible.pdf')">
+        <p>Ansible</p>
+        <span>Stepik • 2024</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacts" class="contacts">
+    <h3>Контакты</h3>
+    <p>📍 Москва</p>
+    <p>📧 <a href="mailto:turuntaevdima@yandex.ru">turuntaevdima@yandex.ru</a></p>
+    <p>📞 <a href="tel:+79296349760">+7 (929) 634-97-60</a></p>
+  </section>
+
+  <footer>© 2025 Дмитрий Турунтаев — Системный администратор</footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/modal.js"></script>
+</body>
+</html>
